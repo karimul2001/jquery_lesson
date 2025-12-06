@@ -8,11 +8,17 @@
 </head>
 <body>
    
-
-
+    <button>Click Here</button>
+    <div id="div"></div>
     <script>
         $(document).ready(function () {
-            
+            $.get("helloWorld.php", function(data, status){
+                $("button").click(function(){
+                    $("#div").html(data);
+                    //alert (data);
+                    alert (status);
+                });
+            });
         });
     </script>
 </body>
