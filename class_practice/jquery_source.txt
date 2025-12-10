@@ -1,1 +1,2 @@
-phppot.com/demo/jequery-add-input-to-form
+phppot.com/demo/jequery-add-input-to-form;
+jequeryui.com;
